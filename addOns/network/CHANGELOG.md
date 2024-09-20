@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Send success/failure stats.
 
+### Changed
+- Stop retrying 429 and 503 responses, instead of waiting for `retry-after` (Issue 8627).
+
+### Fixed
+- Fix typo in log message.
+
 ## [0.17.0] - 2024-09-02
 ### Changed
 - Maintenance changes.
